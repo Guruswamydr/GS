@@ -9,7 +9,7 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("enter a sentance");
+            Console.WriteLine ("enter a sentance");
             string str = Console.ReadLine();
             File.WriteAllText("C:\\Users\\GSSTesterPamGroup\\Desktop\\gu1.txt", str);
             string read = File.ReadAllText("C:\\Users\\GSSTesterPamGroup\\Desktop\\gu1.txt");
